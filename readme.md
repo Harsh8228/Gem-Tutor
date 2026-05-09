@@ -32,6 +32,7 @@ git clone https://github.com/your-username/gem-tutor.git
 cd gem-tutor
 
 Install dependencies:
+uv sync
 
 Environment Variable
 
@@ -55,6 +56,7 @@ Create a study pack on Newton's Laws of Motion.
 Make me 5 revision questions on fractions.
 
 ## Project Structure
+'''
 gem-tutor/
 ├── app.py
 ├── config.py
@@ -64,6 +66,7 @@ gem-tutor/
 ├── study_pack.py
 ├── requirements.txt
 └── README.md
+'''
 
 ## Author
 
