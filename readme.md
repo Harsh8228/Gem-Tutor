@@ -56,7 +56,7 @@ Create a study pack on Newton's Laws of Motion.
 Make me 5 revision questions on fractions.
 
 ## Project Structure
-'''
+
 gem-tutor/
 ├── app.py
 ├── config.py
@@ -64,9 +64,9 @@ gem-tutor/
 ├── rag.py
 ├── llm.py
 ├── study_pack.py
-├── requirements.txt
+├── pyproject.toml
+├── uv.lock
 └── README.md
-'''
 
 ## Author
 
