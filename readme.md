@@ -57,6 +57,9 @@ Make me 5 revision questions on fractions.
 
 ## Project Structure
 
+## Project Structure
+
+```text
 gem-tutor/
 ├── app.py
 ├── config.py
@@ -67,6 +70,7 @@ gem-tutor/
 ├── pyproject.toml
 ├── uv.lock
 └── README.md
+```
 
 ## Author
 
