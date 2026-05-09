@@ -1,6 +1,6 @@
 # Gem Tutor
 
-Gem Tutor is an AI study tutor built with Streamlit. It helps students ask questions, generate study packs, use uploaded PDFs as learning context, and create optional voice lessons.
+Gem Tutor is an AI study tutor built with Streamlit. It helps students ask questions, generate study packs, use uploaded PDFs as learning context, and create optional voice lessons, while keeping a personal profile of each student to provide lessons better aligned to their study needs
 
 This project was built for the Gemma 4 Good Hackathon.
 
@@ -28,21 +28,21 @@ This project was built for the Gemma 4 Good Hackathon.
 
 Clone the repository:
 
-```bash
 git clone https://github.com/your-username/gem-tutor.git
 cd gem-tutor
 
 Install dependencies:
 
-pip install -r requirements.txt
 Environment Variable
 
 Set your OpenRouter API key:
 
 OPENROUTER_API_KEY=your_api_key_here
-Run the App
+
+## Run the App
 streamlit run app.py
-How to Use
+
+## How to Use
 Open the app in your browser.
 Create or select a student profile.
 Upload PDFs from the sidebar if you want PDF-based answers.
@@ -53,7 +53,8 @@ Example Prompts
 Explain photosynthesis in simple terms.
 Create a study pack on Newton's Laws of Motion.
 Make me 5 revision questions on fractions.
-Project Structure
+
+## Project Structure
 gem-tutor/
 ├── app.py
 ├── config.py
@@ -63,6 +64,7 @@ gem-tutor/
 ├── study_pack.py
 ├── requirements.txt
 └── README.md
-Author
+
+## Author
 
 Created by Harsh Vardhan.
