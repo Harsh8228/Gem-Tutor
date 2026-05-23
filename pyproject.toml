@@ -1,0 +1,27 @@
+[project]
+name = "gemma_hackathon"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Harsh"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipykernel>=7.2.0",
+    "kokoro>=0.9.4",
+    "pathlib>=1.0.1",
+    "pymupdf>=1.27.2.3",
+    "reportlab>=4.5.0",
+    "requests>=2.33.1",
+    "soundfile>=0.13.1",
+    "streamlit>=1.56.0",
+    "torchvision>=0.26.0",
+]
+
+[tool.uv]
+managed = true
+package = false  # This tells uv NOT to look for a Rev_test folder
+
+[build-system]

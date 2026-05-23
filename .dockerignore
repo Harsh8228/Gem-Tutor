@@ -1,0 +1,10 @@
+.venv
+.git
+.gitignore
+.env
+.DS_Store
+
+app/__pycache__
+app/**/*.pyc
+
+app/student_data
