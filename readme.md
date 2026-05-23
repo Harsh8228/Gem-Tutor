@@ -41,7 +41,7 @@ uv sync
 
 ## Environment Variable
 
-Set your OpenRouter API key:
+Set your OpenRouter API key (Gemma 4:31B is recommended):
 
 ```bash
 OPENROUTER_API_KEY=your_api_key_here
