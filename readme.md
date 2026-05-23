@@ -85,14 +85,20 @@ Make me 5 revision questions on fractions.
 
 ```text
 gem-tutor/
-├── app.py
-├── config.py
-├── students.py
-├── rag.py
-├── llm.py
-├── study_pack.py
+├── app/
+│   ├── app.py
+│   ├── config.py
+│   ├── students.py
+│   ├── rag.py
+│   ├── llm.py
+│   ├── study_pack.py
+│   ├── student_data/
+│   └── __pycache__/
 ├── pyproject.toml
 ├── uv.lock
+├── Dockerfile
+├── .dockerignore
+├── .gitignore
 └── README.md
 ```
 
