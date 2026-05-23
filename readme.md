@@ -28,20 +28,44 @@ This project was built for the Gemma 4 Good Hackathon.
 
 Clone the repository:
 
+```bash
 git clone https://github.com/your-username/gem-tutor.git
 cd gem-tutor
+```
 
-Install dependencies:
+Install dependencies with uv:
+
+```bash
 uv sync
+```
 
-Environment Variable
+## Environment Variable
 
 Set your OpenRouter API key:
 
+```bash
 OPENROUTER_API_KEY=your_api_key_here
+```
 
 ## Run the App
-streamlit run app.py
+
+```bash
+uv run streamlit run app/app.py
+```
+
+## Run with Docker
+
+Build the Docker image:
+
+```bash
+docker build -t gem_tutor .
+```
+
+Run the container:
+
+```bash
+docker run -p 8501:8501 --env-file .env -v ${PWD}/app/student_data:/project/app/student_data gem_tutor
+```
 
 ## How to Use
 Open the app in your browser.
